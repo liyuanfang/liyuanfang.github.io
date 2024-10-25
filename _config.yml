@@ -330,13 +330,16 @@ scholar:
   sort_by: none
   order: descending
 
+  remove_duplicates: true
+  
   replace_strings: true
   join_strings: true
 
   details_dir: bibliography
   details_link: Details
 
-  query: "@*"
+  # query: "@*"
+  query: "!@online[note!=skip]"
   group_by: year
   group_order: descending
 
