@@ -339,8 +339,8 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-  query: "@*"
-  # query: "!@online[note!=skip]"
+  # query: "@*"
+  query: "!@online[note!=skip&&year>=2019]"
   group_by: year
   group_order: descending
 
