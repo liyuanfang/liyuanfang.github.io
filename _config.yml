@@ -8,7 +8,7 @@ middle_name:
 last_name: Li | 李元放
 email: liyuanfang@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My personal web site: 
+  My personal web site: research, publications, misc.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -74,7 +74,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
-dblp_url: # your DBLP profile url
+dblp_url: https://dblp.org/pid/20/2537.html # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
@@ -113,7 +113,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to contact me is via email. 
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

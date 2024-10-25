@@ -192,9 +192,6 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
-      {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
-      {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
@@ -213,6 +210,20 @@
           <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        {% endif %}
+      {% endif %}
+      {% if entry.preprint %}
+        {% if entry.preprint contains '://' %}
+          <a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
+        {% else %}
+          <a href="{{ entry.preprint | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Preprint</a>
+        {% endif %}
+      {% endif %}
+      {% if entry.howpublished %}
+        {% if entry.howpublished contains '://' %}
+          <a href="{{ entry.howpublished }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        {% else %}
+          <a href="{{ entry.howpublished | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
