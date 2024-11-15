@@ -1,36 +1,36 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Yuan-Fang Li",
+    "label": "Scientist, researcher, educator, mentor, husband, father",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "liyuanfang@gmail.com",
+    // "phone": "(912) 123-4567",
+    "url": "https://liyuanfang.github.io/",
+    "summary": "A long-time academic researcher venturing into industry to take up new challenges!",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      // "address": "2712 Broadway St",
+      // "postalCode": "CA 94115",
+      "city": "Melbourne",
+      "countryCode": "AU",
+      "region": "Victoria"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "liyuanfang",
+        "url": "https://www.linkedin.com/in/liyuanfang/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Oracle, Australia",
+      "position": "Chief AI Scientist",
+      "url": "https://www.oracle.com",
+      "startDate": "2024-07",
+      // "endDate": "1955-01-01",
+      "summary": "Conducting cutting-edge R&D in generative AI and large language models (LLMs).",
+      // "highlights": ["Relativity"]
     }
   ],
   "volunteer": [
@@ -47,15 +47,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "url": "https://www.nus.edu.sg/",
+      "area": "Semantic Web, Knowledge Graphs, Software Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2002",
+      "endDate": "2006",
+      // "score": "10",
+      // "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
