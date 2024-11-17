@@ -23,6 +23,8 @@ nav_order: 6
 
 - **Shilin Qu** (2022-): (hyper)graph representation learning, joint supervision with [Teresa Wang](https://research.monash.edu/en/persons/teresa-wang). [[ACM TMM 2024](/publications#10.1145/3697838), [CoNLL'24](/publications#norm_conll2024), [ACL'23](/publications#DBLP:conf_acl_MoghimifarQWLH23)]
 
+- **Wannita Takerngsaksiri** (2022-): Code generation, joint supervision with [Kla Tantithamthavorn](https://chakkrit.com/). [[IST 2024](/publications#TAKERNGSAKSIRI2024107336)]
+
 - **Tahsina Hashem** (2022-): faithful data-to-text generation, joint supervision with [Teresa Wang](https://research.monash.edu/en/persons/teresa-wang) and [Derry Wijaya](https://derrywijaya.github.io/web/). [[INLG'24](/publications#DBLP:conf/inlg/HashemWWAL24), [INLG'23](/publications#DBLP:conf_inlg_HashemWWAL23)]
 
 - [**Linhao Luo**](https://rmanluo.github.io/) (2021-): Knowledge graphs and LLMs, joint supervision with [Shirui Pan](https://shiruipan.github.io/) and [Reza Haffari](http://users.monash.edu.au/~gholamrh/). [[ACL'24](/publications#DBLP:conf/acl/NguyenLS0LVH24), [ICLR’24](/publications#luo-rog-2024-iclr), [SIGIR’23](/publications#DBLP:conf_sigir_LuoLHP23)]
