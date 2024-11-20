@@ -18,7 +18,7 @@ nav_order: 6
   - Graph representation learning
   - Knowledge extraction from unstructured data (text, images, etc.)
 
-## PhD Students
+## Recent PhD Students
 (in reverse chronological order)
 
 - **Shilin Qu** (2022-): (hyper)graph representation learning, joint supervision with [Teresa Wang](https://research.monash.edu/en/persons/teresa-wang). [[ACM TMM 2024](/publications#10.1145/3697838), [CoNLL'24](/publications#norm_conll2024), [ACL'23](/publications#DBLP:conf_acl_MoghimifarQWLH23)]
@@ -40,3 +40,8 @@ nav_order: 6
 - [**Tao He**](https://ht014.github.io/) (2019–2023): *Scene graph generation* & *Graph representation learning*, joint supervision with [Lianli Gao](https://sites.google.com/site/drlianligao/) (UESTC). [[TIP 2023#1](/publications#tip_sgg_hov), [TIP 2023#2](/publications#DBLP:journals_tip_HeGSL23), [TNNLS 2023](/publications#DBLP:journals_tnn_HeGSL23), [ICCV'21](/publications#DBLP:conf_iccv_0007GSL21), [ECCV'22](/publications#DBLP:conf_eccv_HeGSL22), [IJCAI'20](/publications#DBLP:conf_ijcai_HeGS0L20), [AAAI'20](/publications#DBLP:conf/aaai/HeGSWHL20a), [IJCAI'19](/publications#DBLP:conf_ijcai_HeLGZS19)]
 
 - **Yuncheng Hua** (2018–2021): *Cmoplex question answering over knowledge graphs*, Southeast University-Monash University joint Graduate School, joint supervision with [Guilin Qi](https://scholar.google.com/citations?user=1gw3LJQAAAAJ&hl=en) (Southeast University). [[ISWC'19](/publications#DBLP:conf_semweb_KumarHRQGL19), [IJCAI'20](/publications#DBLP:conf_ijcai_HuaLHQW20), [EMNLP'20](/publications#DBLP:conf_emnlp_HuaLHQW20), [JWS 2019](/publications#DBLP:journals_ws_HuaLQWZQ20), [AAAI'21](/publications#DBLP:conf_aaai_ZhengLGHQ21)]
+
+- **Bhagya Hettige** (2017–2021): *Graph representation learning for electronic health record (EHR) analysis*, joint supervision with [Wray Buntine](https://research.monash.edu/en/persons/wray-buntine), [Teresa Wang](https://research.monash.edu/en/persons/teresa-wang), [Suong Le](https://healthpages.wiki/wiki/Dr_Suong_Le_(Gastroenterologist)). 
+  [[ADC'20](/publications#DBLP:conf_adc_HettigeLWB20) (best student paper award), [ECAI'20](/publications#DBLP:conf_ecai_Hettige0LLB20), [PAKDD'20](/publications#DBLP:conf_pakdd_Hettige0LB20)] 
+
+- **Vishwajeet Kumar** (2016–2020): *Natural-language question generation*, IITB-Monash Academy, joint supervision with [Ganesh Ramakrishnan](https://www.cse.iitb.ac.in/~ganesh/) (IITB). [[AACL-IJCNLP'20](/publications#DBLP:conf_ijcnlp_KumarJRL20), [CoNLL'19](/publications#DBLP:conf_conll_KumarRL19), [EMNLP'19](/publications#DBLP:conf_emnlp_KumarMRL19), [ISWC'19](/publications#DBLP:conf_semweb_KumarHRQGL19), [PAKDD'18](/publications#DBLP:conf_pakdd_KumarBMRL18)]
