@@ -196,7 +196,8 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: true
+    enabled: false
+    output: false
     permalink: /:collection/:title/
 
 announcements:
