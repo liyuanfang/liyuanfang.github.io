@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One papers accepted at **AAAI'25**: on [table understanding](/publications#HeGTa).
+One paper accepted at **AAAI'25**: on [table understanding](/publications#HeGTa).
