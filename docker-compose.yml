@@ -17,5 +17,12 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll
+      - jekyll_cache:/srv/jekyll/.jekyll-cache
+      - tweet_cache:/srv/jekyll/.tweet-cache
     environment:
       - JEKYLL_ENV=development
+      - JEKYLL_NO_DISK_CACHE=true
+
+volumes:
+  jekyll_cache:
+  tweet_cache:

@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:3.3.5
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
@@ -8,6 +8,7 @@ FROM ruby:latest
 # ARG USERNAME=jekyll
 
 ENV DEBIAN_FRONTEND noninteractive
+ENV BUNDLER_VERSION=2.5.18
 
 LABEL authors="Amir Pourmand,George Araújo" \
       description="Docker image for al-folio academic template" \
@@ -59,9 +60,10 @@ ADD Gemfile /srv/jekyll
 # set the working directory
 WORKDIR /srv/jekyll
 
-# install jekyll and dependencies
-RUN gem install --no-document jekyll bundler
-RUN bundle install --no-cache
+# install the exact Bundler version from Gemfile.lock and keep the lockfile frozen
+RUN gem install --no-document bundler:$BUNDLER_VERSION
+RUN bundle _${BUNDLER_VERSION}_ config set frozen true && \
+    bundle _${BUNDLER_VERSION}_ install --jobs 4 --retry 3
 
 EXPOSE 8080
 

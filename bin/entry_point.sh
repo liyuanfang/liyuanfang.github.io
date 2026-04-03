@@ -21,7 +21,21 @@ manage_gemfile_lock() {
 
 start_jekyll() {
     manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
+    local jekyll_args=(
+        --watch
+        --port=8080
+        --host=0.0.0.0
+        --livereload
+        --verbose
+        --trace
+        --force_polling
+    )
+
+    if [ "${JEKYLL_NO_DISK_CACHE:-false}" = "true" ]; then
+        jekyll_args+=(--disable-disk-cache)
+    fi
+
+    bundle exec jekyll serve "${jekyll_args[@]}" &
 }
 
 start_jekyll
