@@ -19,9 +19,9 @@ social: true # includes social icons at the bottom of the page
 >  
 >  
 
-Good day! I'm a Chief AI Scientist at [Oracle](https://www.oracle.com/), working on cutting-edge R&D in generative AI, specifically large language models (LLMs). 
+Good day! I'm Chief AI Scientist at Oracle Health and AI (OHAI) Australia, [Oracle](https://www.oracle.com/), working on cutting-edge R&D in generative AI, specifically large language models (LLMs). 
 
-I'm also an Associate Professor at [Department of Data Science and AI](https://www.monash.edu/it/dsai), [Faculty of Information Technology](http://www.infotech.monash.edu/), [Monash University](https://www.monash.edu/).
+Previously, I was an Associate Professor at [Department of Data Science and AI](https://www.monash.edu/it/dsai), [Faculty of Information Technology](http://www.infotech.monash.edu/), [Monash University](https://www.monash.edu/).
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
